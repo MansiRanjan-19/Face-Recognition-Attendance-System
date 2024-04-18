@@ -3,14 +3,14 @@ from firebase_admin import credentials
 from firebase_admin import db
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL' :" https://faceattendancerealtime-c686d-default-rtdb.firebaseio.com/"
+    'databaseURL' :" "
 })
 
 ref = db.reference('Students')
 
 data = {
     "D2021":{
-        "name": "Divya Ranjan",
+        "name": " ",
         "Major": "Medical",
         "Starting_year": 2021,
         "total_attendance": 20,
@@ -20,7 +20,7 @@ data = {
 
     },
 "M2025":{
-        "name": "Mansi Ranjan",
+        "name": " ",
         "Major": "AIML",
         "Starting_year": 2021,
         "total_attendance": 30,
@@ -30,7 +30,7 @@ data = {
 
     },
 "R2004":{
-        "name": "Riya",
+        "name": " ",
         "Major": "BCA",
         "Starting_year": 2021,
         "total_attendance": 15,
@@ -40,7 +40,7 @@ data = {
 
     },
 "R2020":{
-        "name": "Dr. Ritika",
+        "name": " ",
         "Major": "Computer Science",
         "Starting_year": 2021,
         "total_attendance": 4,
@@ -50,7 +50,7 @@ data = {
 
     },
 "R2026":{
-        "name": "Mr. Ranjit Ranjan",
+        "name": " ",
         "Major": "Medical",
         "Starting_year": 2021,
         "total_attendance": 44,
