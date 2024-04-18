@@ -1,1 +1,2 @@
 # Face-Recognition-Attendance-System
+This project aims to streamline attendance tracking processes by leveraging facial recognition technology and cloud-based database connectivity used for real time data storage and retrieval. The project utilizes cutting-edge technologies such as OpenCV, Python, Firebase, NumPy, and other Python libraries to develop a robust system for automated attendance management.
